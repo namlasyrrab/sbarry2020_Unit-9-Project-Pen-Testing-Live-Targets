@@ -43,11 +43,11 @@ Description: When the user name is correct the "log in is unsucessfull" messege 
 
 ## Red
 
-Vulnerability #1: __________________
+Vulnerability #1: Insecure Direct Object Reference
 
-Description:
+Description: If user edits the useris they can access information that the admin has decided to make private, as shown in the example, despite lazy lazyman not being listed, i can find him by changing the user id to 11
 
-<img src="red-vuln1.gif">
+<img src="red exploit.gif">
 
 
 ## Notes
