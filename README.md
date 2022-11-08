@@ -34,6 +34,12 @@ Description: A attacker can use the feedback form to inject a script, by simply 
 
 <img src="green_exploit.gif">
 
+Vulnerability #2: User Enumaration
+
+Description: When the user name is correct the "log in is unsucessfull" messege is bolded and when the user doesnt exist it is plain text, the creator of the site forgot to use the same fomrat for both possibilities
+
+<img src="green_exploit2_user_e.gif ">
+
 
 ## Red
 
