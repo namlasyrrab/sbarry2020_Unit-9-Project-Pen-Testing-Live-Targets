@@ -32,7 +32,7 @@ Vulnerability #1: Script Injection XXS
 
 Description: A attacker can use the feedback form to inject a script, by simply using ```<script> "Salman has inserted a script" </script>```, once an admin clicks on the feedback form the script will be activated.
 
-<img src="green-vuln1.gif">
+<img src="green_exploit.gif">
 
 
 ## Red
