@@ -19,9 +19,9 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 
 ## Blue
 
-Vulnerability #1: __________________
+Vulnerability #1: SQL Injection
 
-Description:
+Description: The attacker can enter any sql script in the id field in the url, allowing the attacker to take control of any of the forms data, and pull it at will without admin provelages, the code ```%27%20OR%20SLEEP(10)=0--%27``` will delay the request by 10 seconds
 
 <img src="blue_exploit_1.gif">
 
